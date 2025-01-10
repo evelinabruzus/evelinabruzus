@@ -1,0 +1,22 @@
+ """"
+s = {}
+s1 = {1,2,3,4,5}
+print(s) 
+print(s1)
+
+s1.{0} = 11
+print(s1)
+
+s1.pop()
+print(s1)
+
+s1.append(90)
+print(s1)
+"""
+
+s0 = {}
+for i in range (5)
+    x = int(intput("Enter x:"))
+    s0.append(x)
+    print(s0)
+    for item in s0
