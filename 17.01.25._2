@@ -1,0 +1,28 @@
+filma = {
+    'nosaukums' : 'The Twilight Saga: Eclipse',
+    'režisors' : 'David Slade',
+    'žanrs' : 'Romantika',
+ "aktieri" : ["Kristen Stewart", "Robert Pattinson", "Taylor Lautners"],
+    }
+# Pievieno IMDB reitingu
+filma['IMDB_reitings'] = 5,1
+
+# Maina žanru
+filma["žanrs"] = "Drāma"
+
+# Izdzēs režisoru
+del filma["režisors"]
+
+filma2 = {
+   "nosaukums" : "After We Collided",
+   "režisors"  : "Roger Kumble",
+   "žanrs" : "Romantika",
+"aktieri" : ["Josephine Langford", "Hero Fiennes Tiffin", "Dylan Sprouse"], 
+  filma2 ["IMDB_reitings"] = 5,1
+   }
+# Pievieno otro filmu
+filmas = {"filma1" : filma, "filma2" : filma2}
+
+#izdrukā vārdnīcu
+print(filma)
+print(filma2)
