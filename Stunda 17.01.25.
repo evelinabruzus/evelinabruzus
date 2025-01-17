@@ -1,0 +1,22 @@
+vērtejumi  = {
+    10: "izcili",
+    9:  "teicami",
+    8: "ļoti labi",
+    7: "labi",
+    6: "gandīz labi",
+    5: "viduvēji",
+    4: "gandrīz viduvēji",
+    3: "nesekmīgi",
+    2: "nesekmīgi",
+    1: "nesekmīgi",
+    }
+#lietotāja ievad
+
+n=int(input("Ievadiet balles no 1-10: "))
+
+# pārbaude
+
+if 1<=n<=10:
+    print(f"vērtējums{vērtejumi[n]}")
+else:
+    print("Ievadītais skaitlis nav korekts. Lūdzu ievadiet no 1-10")
